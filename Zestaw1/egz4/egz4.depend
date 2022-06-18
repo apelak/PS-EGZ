@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1655487502 source:c:\users\arek\desktop\zestaw1\egz4\main.c
+	<stdio.h>
+	<stdlib.h>
+
