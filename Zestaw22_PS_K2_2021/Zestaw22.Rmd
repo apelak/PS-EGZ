@@ -1,0 +1,43 @@
+---
+title: "Programowanie strukturalne - Kolokwium 2 - Zestaw 22"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+**Każde zadanie powinno być w oddzielnym pliku. Rozwiązanie umieść 
+na swoim indywidualnym repozytorium na Githubie (pojedyncze pliki) lub prześlij jako archiwum zip
+poprzez wiadomość prywatną na MS Teams. Szczegóły są opisane w zespole ćwiczeń w MS Teams.** 
+
+1. W folderze Debug222 znajduje się projekt z kodem w języku C.
+W pliku main.c w niektórych linijkach są komentarze. 
+Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu.
+
+*Punktacja: 7 pkt.*
+
+2. Napisz funkcję, której argumentem jest napis i znak. Funkcja ma usunąć z napisu wszystkie wystąpienia znaku przekazanego jako drugi argument funkcji. W zadaniu nie korzystaj z funkcji bibliotecznych poza instrukcjami wejścia/wyjścia. Stwórz przypadek testowy.
+
+*Punktacja: 8 pkt.*
+
+3. Napisz funkcję, której argumentem jest dwuwymiarowa tablica tablic (zawierająca zmienne typu `int`) oraz jej wymiary $n$ i $m$. Funkcja ma zwrócić średnią elementów stojących na nieparzystych indeksach (oba mają być jednocześnie nieparzyste). Stwórz przypadek testowy.
+
+*Punktacja: 10 pkt.*
+
+4. Stwórz strukturę `Ksiazka` o trzech polach `tytul` (tablica znaków o rozmiarze 20), `rok` (`int`), `ocena` (`float`). Następnie stwórz funkcję, której argumentami jest tablica struktur `Ksiazka` oraz rozmiar tablicy. Funkcja ma zwrócić długość tytułu książki o najwyższej ocenie. Stwórz przypadek testowy.
+
+*Punktacja: 10 pkt.*
+
+5. Napisz funkcję, która porównuje dwie listy bez głowy o elementach typu:
+
+```c
+struct element {
+    int a;
+    struct element * next;
+};
+```
+
+i zwraca 1 jeśli średnie elementów na obu listach są równe oraz 0 w pozostałych przypadkach. Stwórz jeden przypadek testowy.
+
+
+*Punktacja: 15 pkt.*

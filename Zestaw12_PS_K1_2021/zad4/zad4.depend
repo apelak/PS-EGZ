@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1649786311 source:c:\users\arek\desktop\zestaw12_ps_k1_2021\zad4\main.c
+	<stdio.h>
+	<stdlib.h>
+

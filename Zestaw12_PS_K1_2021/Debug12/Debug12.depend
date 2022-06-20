@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1619359294 source:c:\users\piotrek\documents\cbprojects\debug12\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1649782791 source:c:\users\arek\desktop\zestaw12_ps_k1_2021\debug12\main.c
+	<stdio.h>
+	<stdlib.h>
+
